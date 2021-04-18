@@ -2,7 +2,7 @@ body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96;
-  background-color: #fbfbfb;
+  background-color: #fff/* #fbfbfb;*/
 }
 
 @media (min-width: 992px) {
@@ -148,6 +148,19 @@ p.lead {
   }
 }
 
+.mapx{
+  width: 750px;
+  height: 435px; 
+}
+
+.hvr-forward{
+  margin-top: 50px;
+}
+
+.hvr-forward1{
+  margin-top: 50px;
+}
+
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
@@ -164,6 +177,31 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
+  }
+}
+
+@media (max-width: 900px){
+ .job-font-size{
+    font-size: 22px;
+  }
+  .sz{
+    font-size: 40px !important;
+  }
+ .hvr-forward{
+    font-size: 90px; 
+  }
+  .hvr-forward1{
+  margin-top: 0px;
+}
+  div img .cen{
+    align-items: center;
+  }
+  .mapx{
+     width: 390px;
+     height: 300px;
+  }
+  .social-icons a{
+    align-items: center;
   }
 }
 
@@ -302,7 +340,6 @@ input:focus, textarea:focus {
 }
 
 #button-blue{
-  font-family: 'Montserrat', Helvetica, Arial,  sans-serif;
   float:left;
   width: 100%;
   border: #fbfbfb solid 4px;
@@ -319,7 +356,7 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
   background-color: rgba(0,0,0,0);
-  color: #0493bd;
+  color: #BD5D38;
 }
   
 .submit:hover {
@@ -351,6 +388,11 @@ input:focus, textarea:focus {
     margin-left: 0;
     padding-left: 3%;
     padding-right: 3%;
+  }
+
+  #button-blue{
+    height: 60px;
+    padding-top:8px;
   }
 }
 
