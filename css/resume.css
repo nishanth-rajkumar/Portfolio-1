@@ -39,6 +39,10 @@ h2 {
   font-size: 3.5rem;
 }
 
+.small{
+	font-size: 3.5rem;
+}
+
 h3 {
   font-size: 2rem;
 }
@@ -211,6 +215,9 @@ section.resume-section .resume-item .resume-date {
   }
   .imgcent{
     align-items: center !important;
+  }
+  .small{
+  	font-size: 40px;
   }
 }
 
