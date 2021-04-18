@@ -12,6 +12,12 @@ body {
   }
 }
 
+@media (max-width: 500px){
+  div .imgcent{
+    align-items: center !important;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -180,7 +186,7 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 900px){
  .job-font-size{
     font-size: 22px;
   }
@@ -192,12 +198,9 @@ section.resume-section .resume-item .resume-date {
   }
   .hvr-forward1{
   margin-top: 0px;
-}
-  div img .cen{
-    align-items: center;
   }
   .mapx{
-     width: 300px;
+     width: 340px;
      height: 300px;
   }
   .social-icons a{
@@ -205,6 +208,9 @@ section.resume-section .resume-item .resume-date {
   }
   .rob{
   font-size: 2.5rem !important;
+  }
+  .imgcent{
+    align-items: center !important;
   }
 }
 
