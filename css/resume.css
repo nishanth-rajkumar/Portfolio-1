@@ -203,6 +203,9 @@ section.resume-section .resume-item .resume-date {
   .social-icons a{
     align-items: center;
   }
+  .rob{
+  font-size: 2.5rem !important;
+  }
 }
 
 @media (min-width: 992px) {
