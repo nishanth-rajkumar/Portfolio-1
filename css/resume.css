@@ -180,7 +180,7 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-@media (max-width: 900px){
+@media (max-width: 500px){
  .job-font-size{
     font-size: 22px;
   }
@@ -188,7 +188,7 @@ section.resume-section .resume-item .resume-date {
     font-size: 40px !important;
   }
  .hvr-forward{
-    font-size: 90px; 
+    font-size: 80px; 
   }
   .hvr-forward1{
   margin-top: 0px;
