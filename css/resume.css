@@ -415,3 +415,14 @@ input:focus, textarea:focus {
 .cent{
   text-align: center;
 }
+
+.error{
+  color: red;
+}
+
+.success {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
