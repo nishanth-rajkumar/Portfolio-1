@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include('contact.php'); ?>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -17,6 +18,7 @@
     <link href="css/resume.css" rel="stylesheet" />
     <link href="css/hover.css" rel="stylesheet" />
     <link href="css/progress.css" rel="stylesheet" />
+
   </head>
 
   <body>
@@ -792,20 +794,23 @@
               <div class="col-md-6">
                 <div class="card-body">
                   <div class="card-text">
-                    <form class="form" id="form1" method="post" action="contact.php">                      
+                    <form class="form" id="form1" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">                      
                       <p class="name">
-                        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="NAME" id="name" />
+                        <input name="name" value="<?= $name ?>" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="NAME" id="name" />
+                        <span class="error"><?= $name_error ?></span>
                       </p>                      
                       <p class="email">
-                        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="EMAIL" />
+                        <input name="email" value="<?= $email ?>" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="EMAIL" />
+                        <span class="error"><?= $email_error ?></span>
                       </p>                      
                       <p class="message">
-                        <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="COMMENT"></textarea>
+                        <textarea name="message" value="<?= $message ?>" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="COMMENT"></textarea>
                       </p>                                         
                       <div class="submit">
                         <input type="submit" value="SEND" id="button-blue"/>
                         <div class="ease"></div>
                       </div>
+                      <div class="success"><?= $success; ?></div>
                     </form>
                   </div>
                 </div>
