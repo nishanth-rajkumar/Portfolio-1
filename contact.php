@@ -1,24 +1,55 @@
 <?php
-	$name = $_POST['name'];
-	$visitor_email = $_POST['email'];
-	$message = $_POST['text'];
 
-	$email_from = 'jerrin.bright2018@vitstudent.ac.in';
+	$name_error = $email_error = $success = "";
+	$name = $email = "";
 
-	$email_subject = 'New Form from .tech';
+	if ($_SERVER["REQUEST_METHOD"] == "POST"){
+		if (empty($_POST["name"])){
+			$name_error = "Name is required";
+		} else {
+			$name = test_inpput($_POST["name"]);
+			if (!preg_match("/^[a-zA-Z]*$/", $name)){
+				$name_error = "Only letters and space allowed"
+			}
+		}
 
-	$email_body = "User Name: $name.\n".
-					"User Email: $visitor_email.\n".
-						"User Message: $message.\n";
+		if (empty($_POST["email"])){
+			$email_error = "Email is required";
+		} else{
+			$email = test_input($_POST["email"]);
+			if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+				$email_error = "Invalid email format"
+			}
+		}
 
-	$to = "jerriebright@gmail.com"
+		if (empty($_POST["message"])) {
+			$message = "";
+		} else {
+			$message = test_input($_POST["message"]);
+		}
 
-	$headers = "From: $email_from \r\n";
+		if ($name_error == '' and $email_error == ""){
+			$message_body = '';
+			unset($_POST['submit']);
+			foreach ($_POST as $key => $value){
+				$message_body .= "$key: $value\n";
+			}
 
-	$headers = "Reply-To: $visitor_email \r\n";
+			$to = "jerriebright@gmail.com"
+			$subject = 'Contact Form Submit';
+			if (mail($to, $ubject, $message)){
+				$success = "Message Sent, thank you for contacting me!";
+				$name = $email = '';
+			}
+		}
 
-	mail($to, $email_subject, $email_body, $headers);
+	}
 
-	header("Location: index.html");
+	function test_input($data) {
+		$data = trim($data);
+		$data = stripslashes($data);
+		$data = htmlspecialchars($data);
+		return $data;
+	}
 
 ?>
