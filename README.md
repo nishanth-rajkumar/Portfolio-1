@@ -1,2 +1,1 @@
-# W2
-Personal Website
+# Personal Website
