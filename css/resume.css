@@ -1,8 +1,9 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
-  background-color: #fff/* #fbfbfb;*/
+  color: #000;
+  background-color: #DDDADA;
+  text-decoration-color: #C0220E;
 }
 
 @media (min-width: 992px) {
@@ -27,7 +28,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #000;
 }
 
 h1 {
@@ -50,6 +51,15 @@ h3 {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  color: #000;
+}
+
+p{
+  color: #000;
+}
+
+strong{
+  color: #000;
 }
 
 .subheading {
@@ -85,7 +95,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #C0220E;
 }
 
 .dev-icons {
@@ -93,7 +103,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #C0220E;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -179,6 +189,11 @@ section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
+  color: #000;
+}
+
+.resume-content{
+  background-color: #DDDADA;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -236,15 +251,28 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #C0220E !important;
+}
+
+.xx{
+   font-size: 30px;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #C0220E !important;
+  background-color: #DDDADA;
+}
+
+.badge{
+  background-color: #DDDADA;
+}
+
+.hvr-hang{
+  background-color: #DDDADA;
 }
 
 a {
-  color: #BD5D38;
+  color: #C0220E;
 }
 
 a:hover, a:focus, a:active {
@@ -303,8 +331,8 @@ a:hover, a:focus, a:active {
 .feedback-input:focus{
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #BD5D38;
-  color: #BD5D38;
+  border: 3px solid #C0220E;
+  color: #C0220E;
   outline: none;
   padding: 13px 13px 13px 54px;
 }
@@ -367,7 +395,7 @@ input:focus, textarea:focus {
   width: 100%;
   border: #fbfbfb solid 4px;
   cursor:pointer;
-  background-color: #BD5D38;
+  background-color: #C0220E;
   color:white;
   font-size:24px;
   padding-top:22px;
@@ -379,11 +407,11 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
   background-color: rgba(0,0,0,0);
-  color: #BD5D38;
+  color: #C0220E;
 }
   
 .submit:hover {
-  color: #BD5D38;
+  color: #C0220E;
 }
   
 .ease {
@@ -432,4 +460,18 @@ input:focus, textarea:focus {
   text-align: center;
   font-weight: bold;
   font-size: 14px;
+}
+
+.hov{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hov:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow: hidden;
+  z-index: 100;
 }
