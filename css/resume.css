@@ -41,7 +41,7 @@ h2 {
 }
 
 .small{
-	font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 h3 {
@@ -236,7 +236,7 @@ section.resume-section .resume-item .resume-date {
     align-items: center !important;
   }
   .small{
-  	font-size: 40px;
+    font-size: 40px;
   }
   .card{
    width: 18rem;
@@ -263,11 +263,11 @@ section.resume-section .resume-item .resume-date {
   background-color: #DDDADA;
 }
 
-.badge{
+.hvr-hang{
   background-color: #DDDADA;
 }
 
-.hvr-hang{
+.xx{
   background-color: #DDDADA;
 }
 
