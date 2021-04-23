@@ -56,7 +56,13 @@ p.lead {
 
 p{
   color: #000;
+  font-weight: 500;
 }
+
+li{
+  font-weight: 500;
+}
+
 
 strong{
   color: #000;
@@ -173,7 +179,7 @@ strong{
 }
 
 .mapx{
-  width: 750px;
+  width: 730px;
   height: 435px; 
 }
 
@@ -260,7 +266,6 @@ section.resume-section .resume-item .resume-date {
 
 .text-primary {
   color: #C0220E !important;
-  background-color: #DDDADA;
 }
 
 .hvr-hang{
@@ -469,9 +474,27 @@ input:focus, textarea:focus {
   transition: .3s ease-in-out;
 }
 
+.siz{
+  width: 10%;
+  height: 10%;
+}
+
+.size{
+    width: 8.5%;
+  height: 8.5%;
+}
+
 .hov:hover{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   overflow: hidden;
   z-index: 100;
+}
+
+.sz{  width: 7%;
+  height: 7%;
+}
+
+.xxx{
+  background-color: #DDDADA;
 }
