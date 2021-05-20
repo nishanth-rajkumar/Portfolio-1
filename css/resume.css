@@ -3,7 +3,7 @@ body {
   padding-top: 54px;
   color: #000;
   background-color: #fff;
-  text-decoration-color: #A80038;
+  text-decoration-color: #ab2016;
 }
 
 @media (min-width: 992px) {
@@ -100,7 +100,7 @@ strong{
 }
 
 .social-icons a:hover {
-  background-color: #A80038;
+  background-color: #ab2016;
 }
 
 .dev-icons {
@@ -108,7 +108,7 @@ strong{
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #A80038;
+  color: #ab2016;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -321,7 +321,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #A80038 !important;
+  background-color: #ab2016 !important;
 }
 
 .xx{
@@ -329,7 +329,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: #A80038 !important;
+  color: #ab2016 !important;
 }
 
 .hvr-hang{
@@ -341,7 +341,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #A80038;
+  color: #ab2016;
 }
 
 a:hover, a:focus, a:active {
@@ -400,8 +400,8 @@ a:hover, a:focus, a:active {
 .feedback-input:focus{
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #A80038;
-  color: #A80038;
+  border: 3px solid #ab2016;
+  color: #ab2016;
   outline: none;
   padding: 13px 13px 13px 54px;
 }
@@ -464,7 +464,7 @@ input:focus, textarea:focus {
   width: 100%;
   border: #fbfbfb solid 4px;
   cursor:pointer;
-  background-color: #A80038;
+  background-color: #ab2016;
   color:white;
   font-size:24px;
   padding-top:22px;
@@ -476,11 +476,11 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
   background-color: rgba(0,0,0,0);
-  color: #A80038;
+  color: #ab2016;
 }
   
 .submit:hover {
-  color: #A80038;
+  color: #ab2016;
 }
   
 .ease {
