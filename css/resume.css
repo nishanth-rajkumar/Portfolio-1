@@ -75,7 +75,7 @@ strong{
 }
 
 .card-img{
-  height: 260px;
+  height: 200px;
 }
 
 .card{
@@ -257,7 +257,7 @@ section.resume-section {
 .flt{
   float: right;
   margin-top: -300px;
-  margin-right: 100px;
+  margin-right: 200px;
 }
 
 .card-imag{
@@ -331,7 +331,13 @@ section.resume-section .resume-item .resume-date {
     width: 290px;
   }
   .card-ima{
-    width: 290px;
+    width: 287px;
+  }
+  .card-img{
+    display: none;
+  }
+  .rem{
+    display: none;
   }
   .flt{
     float: left;
