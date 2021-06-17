@@ -233,21 +233,31 @@ section.resume-section {
   height: 8.5%;
 }
 
-.hov:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  overflow: hidden;
-  z-index: 100;
-}
-
 .sz{  
   width: 7%;
   height: 7%;
 }
 
+.ss{
+  width: 6%;
+  height: 6%; 
+}
+
 .sze{  
   width: 5%;
   height: 5%;
+}
+
+.se{  
+  width: 4.85%;
+  height: 4.85%;
+}
+
+.hov:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow: hidden;
+  z-index: 100;
 }
 
 .xxx{
