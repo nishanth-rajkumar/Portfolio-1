@@ -3,7 +3,7 @@ body {
   padding-top: 54px;
   color: #000;
   background-color: #fff;
-  text-decoration-color: #ab2016;
+  text-decoration-color: #760000;
 }
 
 @media (min-width: 992px) {
@@ -75,11 +75,15 @@ strong{
 }
 
 .card-img{
-  height: 200px;
+  height: 300px;
 }
 
 .card{
    width: 90rem;
+}
+
+.brk{
+  display: block;
 }
 
 .social-icons a {
@@ -100,7 +104,7 @@ strong{
 }
 
 .social-icons a:hover {
-  background-color: #ab2016;
+  background-color: #760000;
 }
 
 .dev-icons {
@@ -108,7 +112,7 @@ strong{
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #ab2016;
+  color: #760000;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -119,6 +123,14 @@ strong{
 
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
+}
+
+.inv{
+  display: none;
+}
+
+.vis{
+  display: inline;
 }
 
 @media (min-width: 992px) {
@@ -233,21 +245,31 @@ section.resume-section {
   height: 8.5%;
 }
 
-.hov:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  overflow: hidden;
-  z-index: 100;
-}
-
 .sz{  
   width: 7%;
   height: 7%;
 }
 
+.ss{
+  width: 6%;
+  height: 6%; 
+}
+
 .sze{  
   width: 5%;
   height: 5%;
+}
+
+.se{  
+  width: 4.85%;
+  height: 4.85%;
+}
+
+.hov:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow: hidden;
+  z-index: 100;
 }
 
 .xxx{
@@ -287,8 +309,33 @@ section.resume-section .resume-item .resume-date {
  .job-font-size{
     font-size: 22px;
   }
+  .brk{
+    display: inline;
+  }
+  .inv{
+    display: inline;
+  }
+  .vis{
+    display: none;
+  }
   .sz{
     font-size: 40px !important;
+  }
+  .ss{
+    width: 13%;
+    height: 13%;  
+  }
+  .siz{
+    width: 10%;
+    height: 10%;  
+  }
+  .sze{
+    width: 10%;
+    height: 10%;  
+  }
+  .se{
+    width: 10%;
+    height: 10%;  
   }
  .hvr-forward{
     font-size: 75px; 
@@ -333,9 +380,6 @@ section.resume-section .resume-item .resume-date {
   .card-ima{
     width: 287px;
   }
-  .card-img{
-    display: none;
-  }
   .rem{
     display: none;
   }
@@ -355,7 +399,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #ab2016 !important;
+  background-color: #760000 !important;
 }
 
 .xx{
@@ -363,7 +407,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: #ab2016 !important;
+  color: #760000 !important;
 }
 
 .hvr-hang{
@@ -375,7 +419,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #ab2016;
+  color: #760000;
 }
 
 a:hover, a:focus, a:active {
@@ -434,8 +478,8 @@ a:hover, a:focus, a:active {
 .feedback-input:focus{
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #ab2016;
-  color: #ab2016;
+  border: 3px solid #760000;
+  color: #760000;
   outline: none;
   padding: 13px 13px 13px 54px;
 }
@@ -498,7 +542,7 @@ input:focus, textarea:focus {
   width: 100%;
   border: #fbfbfb solid 4px;
   cursor:pointer;
-  background-color: #ab2016;
+  background-color: #760000;
   color:white;
   font-size:24px;
   padding-top:22px;
@@ -510,11 +554,11 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
   background-color: rgba(0,0,0,0);
-  color: #ab2016;
+  color: #760000;
 }
   
 .submit:hover {
-  color: #ab2016;
+  color: #760000;
 }
   
 .ease {
@@ -611,4 +655,8 @@ input:focus, textarea:focus {
   .slide-content {
     width: 100%;
   }
+}
+
+.blac{
+  color: #000;
 }
